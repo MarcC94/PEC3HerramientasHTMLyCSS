@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;;AAEA,aAFA,QAAA,0BAEAA,QAAQC,IAAI","file":"src.77eda8a8.js","sourceRoot":"../src","sourcesContent":["import './estilos/estilos.scss';\n\nconsole.log(\"oooo\");"]}

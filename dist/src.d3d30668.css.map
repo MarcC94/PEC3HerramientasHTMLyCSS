@@ -1,0 +1,1 @@
+{"version":3,"sources":["estilos/estilos.scss"],"names":[],"mappings":"AAEA,KACE","file":"src.d3d30668.css","sourceRoot":"../src","sourcesContent":["$colorFondo: peru;\n\nbody{\n  background-color: $colorFondo;\n}"]}
