@@ -1,3 +1,3 @@
-import './estilos/estilos.scss';
+//import './estilos/estilos.scss';
 
-console.log("ooffffoo");
+console.log("ffoo");
