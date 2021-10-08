@@ -66,6 +66,10 @@ footer .contenedor{
   footer .contenedor{
     justify-content: space-between;
   }
+
+  footer p{
+    padding: 5px;
+  }
 }
 
 @media(min-width:1024px){
