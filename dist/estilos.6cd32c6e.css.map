@@ -1,1 +1,0 @@
-{"version":3,"sources":["estilos/estilos.scss"],"names":[],"mappings":"AAEA,KACE","file":"estilos.6cd32c6e.css","sourceRoot":"../src","sourcesContent":["$colorFondo: red;\n\nbody{\n  background-color: $colorFondo;\n}"]}
