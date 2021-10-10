@@ -41,6 +41,7 @@
 
 @media(min-width:1024px){
     #banner img{
+        height: auto;
         margin-top: -330px;
     }
 }

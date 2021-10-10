@@ -18,4 +18,26 @@
     max-width: 280px;
 }
 
+#categorias-detalles{
+    text-align: center;
+}
+
+#categorias-detalles .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#categorias-detalles article{
+    margin: 15px;
+
+}
+
+#categorias-detalles img{
+    width: 100%;
+    max-width: 480px;
+}
+
+
+
 /*# sourceMappingURL=/categorias.3fbcca07.css.map */
