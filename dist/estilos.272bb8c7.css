@@ -89,6 +89,10 @@ footer .contenedor{
 }
 
 @media(min-width:768px){
+  .redes-sociales{
+    width: auto;
+  }
+  
   footer .contenedor{
     justify-content: space-between;
   }
@@ -103,3 +107,5 @@ footer .contenedor{
     width: 1000px;
   }
 }
+
+/*# sourceMappingURL=/estilos.272bb8c7.css.map */
