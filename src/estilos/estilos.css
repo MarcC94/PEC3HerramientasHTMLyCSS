@@ -89,6 +89,10 @@ footer .contenedor{
 }
 
 @media(min-width:768px){
+  .redes-sociales{
+    width: auto;
+  }
+  
   footer .contenedor{
     justify-content: space-between;
   }
