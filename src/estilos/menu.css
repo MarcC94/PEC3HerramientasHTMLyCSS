@@ -1,7 +1,11 @@
+/*No se muestra el input de tipo checkbox del botón
+que desplega el menú de navegación*/
 #menu-navegacion{
     display: none;
 }
 
+/*Estilos para el icono que al pulsarlo muestra el menú
+de navegación*/
 header label{
     float: right;
     font-size: 28px;
@@ -9,6 +13,7 @@ header label{
     cursor: pointer;
 }
 
+/*Estilos para el menú de navegación*/
 .menu{
     position: absolute;
     top: 50px; 
@@ -20,6 +25,7 @@ header label{
     transform: translateX(-100%);
 }
 
+/*Estilos para los enlaces del menú de navegación*/
 .menu a{
     display: block;
     color :white;
@@ -29,14 +35,19 @@ header label{
     border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
+/*Estilos para los enlaces del menú de navegación
+cuando se hace hover sobre ellos*/
 .menu a:hover{
     background: rgba(255,255,255,0.3);
 }
 
+/*Traslación del menú para hacerlo visible al hacer check 
+sobre el input de tipo checkbox*/
 #menu-navegacion:checked ~ .menu{
     transform: translateX(0%);
 }
 
+/*Estilos para que el menú de navegación sea responsive*/
 @media(min-width:1024px){
     .menu{
         position: static;
