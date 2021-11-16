@@ -1,0 +1,121 @@
+/*Estilos generales para el documento*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Fuente de texto utilizada para el body*/
+body{
+  font-family: helvetica;
+}
+
+/*Estilos para el header*/
+header{
+  width: 100%;
+  height: 50px;
+  background:#333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/*Ancho para el contenido del div contenedor*/
+.contenedor{
+  width: 90%;
+  margin: auto;
+}
+
+/*Estilos para el nombre de la página*/
+h1{
+  float: left;
+}
+
+/*Display: table para el menu de navegación*/
+header .contenedor{
+  display: table;
+}
+
+/*Ancho de las secciones y margen inferior de 25px*/
+section{
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/*Estilos aplicados a la sección con id portada*/
+#portada{
+  text-align: center;
+}
+
+#portada h2{
+  margin-bottom: 15px;
+}
+
+#portada h3{
+  margin-bottom: 15px;
+}
+
+#portada p{
+  margin-bottom: 10px;
+}
+
+#portada ul{
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+#portada a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#portada a:hover{
+  text-decoration:underline;
+  color: red;
+  font-weight: bold;
+}
+
+/*Estilo footer*/
+footer{
+  background:#333;
+}
+
+footer .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
+
+.redes-sociales{
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  display: inline;
+}
+
+/*Estilos para que el contenido del footer y del div de 
+clase contenedor sea responsive*/
+@media(min-width:768px){
+  .redes-sociales{
+    width: auto;
+  }
+  
+  footer .contenedor{
+    justify-content: space-between;
+  }
+
+  footer p{
+    padding: 5px;
+  }
+}
+
+@media(min-width:1024px){
+  .contenedor{
+    width: 1000px;
+  }
+}
+/*# sourceMappingURL=index.524625d2.css.map */
