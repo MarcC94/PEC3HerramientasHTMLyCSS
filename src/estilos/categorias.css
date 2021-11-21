@@ -19,6 +19,15 @@
     max-width: 280px;
 }
 
+#categorias .imagenes-index img{
+    transition: all 1s;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#categorias .imagenes-index img:hover{
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
 #categorias-detalles{
     text-align: center;
 }

@@ -78,6 +78,25 @@ section{
   font-weight: bold;
 }
 
+svg{
+  margin-bottom: 50px;
+}
+
+#Planeta{
+  animation: planet 10s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+ 
+@keyframes planet{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+
 /*Estilo footer*/
 footer{
   background:#333;
