@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,SAASC,eAAe,UAAUC,QAAU,WAGxCC,MAAM","sources":["src/index.js"],"sourcesContent":["document.getElementById(\"banner\").onclick = function() {myFunction()};\n\nfunction myFunction() {\n    alert(\"¡Viaja ya, no te lo pienses!\");\n}"],"names":["document","getElementById","onclick","alert"],"version":3,"file":"enlaces.bb2cf4be.js.map"}
