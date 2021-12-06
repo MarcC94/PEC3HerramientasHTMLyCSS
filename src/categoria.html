@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="estilos/menu.css">
     <link rel="stylesheet" href="estilos/banner.css">
     <link rel="stylesheet" href="estilos/categorias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
     <header>
         <div class="contenedor">
-            <h1 class="icon-flight">Trips to Thailand</h1>
+            <a class="nombre-pagina" href="index.html"><h1 class="icon-flight">Trips to Thailand</h1></a>
             <input type="checkbox" id="menu-navegacion">
             <label class="icon-menu" for="menu-navegacion"></label>
             <nav class="menu">
@@ -38,7 +39,7 @@
 
         <section id="portada">
             <div class="contenedor">
-                <h2>TAILANDIA Y SUS ATRACTIVOS</h2>
+                <h2 class="titulo-pagina">TAILANDIA Y SUS ATRACTIVOS</h2>
                 <p>Existen cientos de lugares de Tailandia que no te puedes perder y lo importante es
                 que si decides viajar hasta esta nación te encontrarás con un ambiente seguro, una gastronomía
                 famosa por ser de las más deliciosas del continente y gente carismática que se encarga de tratar 
@@ -48,19 +49,19 @@
         </section>
 
         <section id="categorias">
-            <h3>Algunos de los interes de Tailandia</h2>
+            <h3>Algunos de los intereses de Tailandia</h3>
             <div class="contenedor">
-                <article>
+                <article class="imagenes-categorias">
                     <a href="detalle1.html"><img src="../img/categoria-templos.jpeg" alt="Templo de Tailandia"></a>
-                    <h5>Templos</h4>
+                    <p>Templos</p>
                 </article>
-                <article>
+                <article class="imagenes-categorias">
                     <a href="detalle2.html"><img src="../img/categoria-playas.jpeg" alt="Playa de Tailandia"></a>
-                    <h5>Islas y playas</h4>
+                    <p>Islas y playas</p>
                 </article>
-                <article>
+                <article class="imagenes-categorias">
                     <a href="detalle3.html"><img src="../img/categoria-gastronomia.jpeg" alt="Gastronomia de Tailandia"></a>
-                    <h5>Gastronomia</h4>
+                    <p>Gastronomía</p>
                 </article>
             </div>
         </section>
@@ -69,6 +70,12 @@
     <footer>
         <div class="contenedor">
             <p>Trips to Thailand</p>
+            <nav class="menu">
+                <a href="index.html">INICIO</a>
+                <a href="categoria.html">CATEGORÍAS</a>
+                <a href="presentacion.html">PRESENTACIÓN</a>
+                <a href="enlaces.html">ENLACES</a>
+            </nav>
             <div class="redes-sociales">
                 <a class="icon-facebook-squared"></a>
                 <a class="icon-twitter"></a>

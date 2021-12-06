@@ -10,6 +10,12 @@ body{
   font-family: helvetica;
 }
 
+/*Se hace una aparición gradual hacia arriba que dura 
+2s de las secciones de las páginas.*/
+#portada,#categorias,#categorias-detalles{
+  animation: fadeInUp 2s;
+}
+
 /*Estilos para el header*/
 header{
   width: 100%;
@@ -36,6 +42,11 @@ h1{
 /*Display: table para el menu de navegación*/
 header .contenedor{
   display: table;
+}
+
+/*Color para el texto del nombre de la página*/
+.nombre-pagina{
+  color: white;
 }
 
 /*Ancho de las secciones y margen inferior de 25px*/
@@ -125,6 +136,7 @@ clase contenedor sea responsive*/
   
   footer .contenedor{
     justify-content: space-between;
+    align-items: center; 
   }
 
   footer p{
@@ -137,3 +149,5 @@ clase contenedor sea responsive*/
     width: 1000px;
   }
 }
+
+

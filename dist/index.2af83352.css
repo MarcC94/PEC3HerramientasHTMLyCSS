@@ -1,0 +1,48 @@
+/*Estilos aplicados a la sección de id categorias
+ y categorias-detalles de las distintas páginas*/
+#categorias{
+    text-align: center;
+}
+#categorias .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#categorias article{
+    margin: 15px;
+}
+#categorias img{
+    width: 100%;
+    max-width: 280px;
+}
+#categorias .imagenes-index img{
+    transition: all 1s;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+#categorias .imagenes-index img:hover{
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+            clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+.imagenes-categorias img:hover{
+    -webkit-animation: pulse 0.5s;
+            animation: pulse 0.5s;
+}
+#categorias-detalles{
+    text-align: center;
+}
+#categorias-detalles .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#categorias-detalles article{
+    margin: 15px;
+}
+#categorias-detalles img{
+    width: 100%;
+    max-width: 480px;
+}
+
+
+/*# sourceMappingURL=index.2af83352.css.map */
