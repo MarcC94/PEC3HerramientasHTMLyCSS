@@ -52,12 +52,12 @@ header .contenedor{
 /*Ancho de las secciones y margen inferior de 25px*/
 section{
   width: 100%;
-  margin-bottom: 25px;
 }
 
 /*Estilos aplicados a la sección con id portada*/
 #portada{
   text-align: center;
+  margin-top: 25px;
 }
 
 #portada h2{

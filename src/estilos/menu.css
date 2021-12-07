@@ -43,6 +43,11 @@ cuando se hace hover sobre ellos*/
     font-weight: bold;
 }
 
+.pagina-seleccionada{
+    color:rebeccapurple;
+    font-weight: bold;
+}
+
 /*Traslación del menú para hacerlo visible al hacer check 
 sobre el input de tipo checkbox*/
 #menu-navegacion:checked ~ .menu{
