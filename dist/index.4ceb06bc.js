@@ -1,2 +1,2 @@
 document.getElementById("banner").onclick=function(){alert("¡Viaja ya, no te lo pienses!")};
-//# sourceMappingURL=enlaces.3d02d000.js.map
+//# sourceMappingURL=index.4ceb06bc.js.map
